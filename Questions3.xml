@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfQuizQuestion xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <QuizQuestion>
+    <Question>Czy gdy stworzymy obiekt operatorem New to możemy go nazwać? </Question>
+    <Answers>
+      <string>Nie</string>
+      <string>Tak</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+   <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Jak w języku C++ definiuje się wskaźniki? </Question>
+    <Answers>
+      <string>wsk </string>
+      <string>*wsk*</string>
+      <string>wsk*</string>
+      <string>*wsk</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Jak zadeklarować funkcję typu void bez żadnych argumentów? </Question>
+    <Answers>
+      <string>void nazwa(); </string>
+      <string>void nazwa; </string>
+      <string>nazwa () void;</string>
+      <string>void ( )nazwa (); </string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question> Czy możliwe jest zdefiniowanie wskaźnika typu void?</Question>
+    <Answers>
+      <string>Tak, jeśli nie będzie na nic pokazywał </string>
+      <string>Tak</string>
+      <string>Nie</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question> Wskaźnik to: </Question>
+    <Answers>
+      <string>Komórka pamięci z nadawaną dynamicznie wartością </string>
+      <string>Inna nazwa referencji </string>
+      <string>Adres danej np. zmiennej w pamięci </string>
+      <string>Dynamiczna tablica pewnego typu </string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question> Dlaczego główna funkcja programu (tzw. jej ciało) zwraca wartość? </Question>
+    <Answers>
+      <string>Gdyż funkcja ta NIE jest typu void </string>
+      <string>Tak naprawdę nie ma powodu </string>
+      <string>Bo program musi się w ten sposób skończyć </string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>int tablica[x]; Tak zadeklarowana tablica jest:</Question>
+    <Answers>
+      <string>Zależy od kompilatora </string>
+      <string>Błędem. Powinno być int[x] tablica; </string>
+      <string>Ciągłym blokiem pamięci </string>
+      <string>Tablicą wskaźników na tablice </string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Instrukcje wykonywane w ramach funkcji są ujęte w:</Question>
+    <Answers>
+      <string>( ) (nawiasy zwykłe) </string>
+      <string>{ } (nawiasy klamrowe) </string>
+      <string>[ ](nawiasy kwadratowe) </string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Poprzez wykonanie jakiej instrukcji funkcja zwraca wynik działania?</Question>
+    <Answers>
+      <string>continue</string>
+      <string>break</string>
+      <string>while</string>
+      <string>return</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Poszczególne elementy listy parametrów funkcji oddzielone są od siebie:</Question>
+    <Answers>
+      <string>; (średnikiem)</string>
+      <string>, (przecinkiem)</string>
+      <string>_ (podkreśleniem</string>
+      <string>odzielone spacją</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>W jaki sposób można przekazać parametry do funkcji?</Question>
+    <Answers>
+      <string>Przez wartość</string>
+      <string>Przez adres</string>
+      <string>Obie odpowiedzi są prawidłowe</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Funkcja może modyfikować wartości zmiennych przekazywanych jako parametry.</Question>
+    <Answers>
+      <string>Prawda</string>
+      <string>Fałsz</string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Czy podany kod jest prawidłowy char tablica[5] = "Tomek"?</Question>
+    <Answers>
+      <string>Tak</string>
+      <string>Nie</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Czy realizacja funkcji  int f(){ } jest poprawna?</Question>
+    <Answers>
+      <string>Tak</string>
+      <string>Nie</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Czy realizacja funkcji void f(int value){ return value; } jest poprawna? </Question>
+    <Answers>
+      <string>Tak</string>
+      <string>Nie</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Mamy tablice int tablica[7]. Chcemy odwołać się do 5 elementy tablicy. Jaki ma on indeks?</Question>
+    <Answers>
+      <string>6</string>
+      <string>5</string>
+      <string>4</string>
+      <string>0</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Czym różni się tablica statyczna od tablicy dynamicznej?</Question>
+    <Answers>
+      <string>Niczym</string>
+      <string>Różnice zależą od kompilatora</string>
+      <string>Posiadają rózne indeksowanie elementów</string>
+      <string>Rozmiar tablicy statycznej musi być znany wcześniej</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Przy pomocą jakiej instrukcji usuwamy tablicę dynamiczną?</Question>
+    <Answers>
+      <string>new</string>
+      <string>break</string>
+      <string>delete</string>
+      <string>return</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Od jakiej liczby zaczynają się ideksy w tablicy?</Question>
+    <Answers>
+      <string>0</string>
+      <string>1</string>
+      <string>Zdefiniowana przez nas wartość</string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>W jakich nawiasach podajemy z góry zadane wartości w tablicy?</Question>
+    <Answers>
+      <string>( ) (nawiasy zwykłe) </string>
+      <string>{ } (nawiasy klamrowe) </string>
+      <string>[ ](nawiasy kwadratowe) </string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+</ArrayOfQuizQuestion>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfQuizQuestion xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <QuizQuestion>
+    <Question>Pytanie spoza kursu</Question>
+    <Answers>
+      <string>he</string>
+      <string>he</string>
+      <string>he</string>
+      <string>he</string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+   <Showed>false</Showed>
+  </QuizQuestion>
+ 
+</ArrayOfQuizQuestion>

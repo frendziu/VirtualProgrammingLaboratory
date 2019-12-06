@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfQuizQuestion xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <QuizQuestion>
+    <Question>Tworząc atrybut (zmienną wewnątrz klasy) i chcąc by był widoczny, dostępny od zewnątrz instancji nadamy mu zasięg widoczności: </Question>
+    <Answers>
+      <string>visable</string>
+      <string>open</string>
+      <string>public</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+   <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Konstruktor:</Question>
+    <Answers>
+      <string>Należy wywołać dodatkową instrukcją po utworzeniu obiektu</string>
+      <string>Jest wywoływany automatycznie w chwili tworzenia obiektu</string>
+      <string>Musi być zawsze zdefiniowany jawnie w definicji klasy</string>
+      <string>Każda odpowiedź jest błędna</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Klasa pochodna wyprowadzona z klasy bazowej:</Question>
+    <Answers>
+      <string>ma dostęp do wszystkich elementów składowych klasy bazowej – prywatnych i publicznych</string>
+      <string>ma dostęp do elementów publicznych, ale nie do prywatnych, klasy bazowej</string>
+      <string>ma dostęp do elementów prywatnych, ale nie do publicznych, klasy bazowej</string>
+      <string>musi mieć konstruktor z argumentami, jeśli klasa bazowa ma konstruktor z argumentami</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Wskaźnik „this”:</Question>
+    <Answers>
+      <string>jest wskaźnikiem do obiektu, który uaktywnił bieżącą funkcję składową</string>
+      <string>może być użyty wyłącznie przy przeciążaniu operatorów</string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Prywatne elementy (zmienne) klasy mogą być przetwarzane przez:</Question>
+    <Answers>
+      <string>konstruktor</string>
+      <string>prywatne funkcje (metody) klasy</string>
+      <string>publiczne funkcje (metody) klasy</string>
+      <string>Wszystkie odpowiedzi są poprawne</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Funkcje zaprzyjaźnione (friend):</Question>
+    <Answers>
+      <string>maja dostęp tylko do elementów prywatnych i chronionych klasy</string>
+      <string>maja dostęp tylko do elementów publicznych i prywatnych</string>
+      <string>maja dostęp do wszystkich elementów klasy</string>
+      <string>maja dostęp tylko do elementów chronionych i publicznych klasy</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Klasa pochodna wyprowadzona z klasy bazowej:</Question>
+    <Answers>
+      <string>musi mieć zawsze konstruktor</string>
+      <string>musi mieć konstruktor, gdy klasa bazowa ma konstruktor bez parametrów</string>
+      <string>musi mieć konstruktor, gdy klasa bazowa ma konstruktor z parametrami</string>
+      <string>żadna z powyższych odpowiedzi nie jest poprawna </string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Publiczne elementy (zmienne) klasy mogą być przetwarzane przez:</Question>
+    <Answers>
+      <string>konstruktor</string>
+      <string>prywatne funkcje (metody) klasy;</string>
+      <string>publiczne funkcje (metody) klasy;</string>
+      <string>Wszystkie odpowiedzi są poprawne</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Funkcja zaprzyjaźniona (friend):</Question>
+    <Answers>
+      <string>może być zaprzyjaźniona tylko z jedną klasa</string>
+      <string>może być zaprzyjaźniona z kilkoma, ale tylko abstrakcyjnymi klasami</string>
+      <string>może być zaprzyjaźniona z kilkoma dowolnymi klasami</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Klasa pochodna wyprowadzona z innej klasy bazowej:</Question>
+    <Answers>
+      <string>ma zawsze dostęp do elementów chronionych klasy bazowej</string>
+      <string>ma zawsze dostęp do elementów publicznych klasy bazowej</string>
+      <string>nie ma dostępu do elementów prywatnych klasy bazowej</string>
+      <string>1 i 3 są poprawne</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Zmienna "this" w C++ jest:</Question>
+    <Answers>
+      <string>wskaźnikiem do obiektu klasy bazowej używanym w obiekcie klasy pochodnej</string>
+      <string>jest wskaźnikiem do danego obiektu dostępnym normalnie dla wszystkich funkcji składowych</string>
+      <string>zwykła zmienna definiowana przez użytkownika, a nie słowem kluczowym języka C++ </string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Czysta funkcja wirtualna:</Question>
+    <Answers>
+      <string>jest to funkcja wirtualna nie zdefiniowana w żadnej klasie</string>
+      <string>jest to funkcja wirtualna tylko z parametrami domyślnymi</string>
+      <string>1 i 2 odpowiedź są poprawne</string>
+      <string>Żadna nie jest poprawna</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Konstruktor:</Question>
+    <Answers>
+      <string>w typowych przypadkach powinien być funkcją typu public</string>
+      <string>może być funkcja wirtualną</string>
+      <string>lista argumentów musi być zawsze pusta</string>
+      <string>ma dostęp tylko do danych prywatnych</string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Destruktor definiowany jest:  </Question>
+    <Answers>
+      <string>z dokładnie jednym parametrem </string>
+      <string>z jednym lub więcej parametrami  </string>
+      <string>bez parametrów  </string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Konstruktor kopiujący przekazuje parametr przez: </Question>
+    <Answers>
+      <string>referencje </string>
+      <string>wskaźnik </string>
+      <string>wartość </string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>W jaki sposób wywołujemy metody klasy? </Question>
+    <Answers>
+      <string>Klasa::Metoda() </string>
+      <string>Metoda(Klasa k) </string>
+      <string>Klasa.Metoda() </string>
+      <string>Żaden z powyższych sposobów </string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+</ArrayOfQuizQuestion>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfQuizQuestion>
+  <QuizQuestion>
+    <Question>Jeden z paradygmatów programowania języka C++ jest</Question>
+    <Answers>
+      <string>Programowanie modularne</string>
+      <string>Programowanie funkcyjne</string>
+      <string>Programowanie obiektowe</string>
+      <string>Programowanie imperatywne</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Co to jest kompilacja?</Question>
+    <Answers>
+      <string>Proces generacji kodu w języku źródłowym</string>
+      <string>Proces wykrywania błędów w programie</string>
+      <string>Proces tworzenia pliku wynikowego</string>
+      <string>Proces translacji kodu w języku źródłowym na kod w języku wynikowym</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+ </QuizQuestion>
+  <QuizQuestion>
+    <Question>Linker to </Question>
+    <Answers>
+      <string>Biblioteka dołączana do programu</string>
+      <string>Jeden z programów składowych kompilatora</string>
+      <string>Tłumacz kodu źródłowego na maszynowy</string>
+      <string>Edytor tekstu</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Rozszerzenie pliku napisanego w języku C++ to...</Question>
+    <Answers>
+      <string>.cpp</string>
+      <string>.java</string>
+      <string>.c</string>
+      <string>.py</string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Strumień możemy wypisać na ekran poprzez...</Question>
+    <Answers>
+      <string>cout</string>
+      <string>endl</string>
+      <string>return</string>
+      <string>scanf</string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>#include to...</Question>
+    <Answers>
+      <string>Zmienna inicjująca głowną funkcję programu</string>
+      <string>polecenie, które nakazuje użycia przestrzeni nazw</string>
+      <string>Grupa tzw. dyrektyw preprocesora</string>
+      <string>Zbędna rzecz w kodzie</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Jaka jest wielkość w bajtach zmiennej typu float?</Question>
+    <Answers>
+      <string>1</string>
+      <string>2</string>
+      <string>4</string>
+      <string>8</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Jaka jest wielkość w bajtach zmiennej typu char?</Question>
+    <Answers>
+      <string>2</string>
+      <string>1</string>
+      <string>8</string>
+      <string>4</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Jaki zakres liczbowy ma zmienna typu bool?</Question>
+    <Answers>
+      <string>1.7E +/- 308 (15 cyfr)</string>
+      <string>true lub false</string>
+      <string>Nie ma takiego typu zmiennej</string>
+      <string>od 128 do 127</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Jaki zakres liczbowy ma zmienna typu int?</Question>
+    <Answers>
+      <string>3.4E +/- 38 (7 cyfr)</string>
+      <string>od 128 do 127</string>
+      <string>od -32'768 do 32'767</string>
+      <string>od -2'147'483'648 do 2'147'483'647</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Która deklaracja zmiennej jest błędna</Question>
+    <Answers>
+      <string>int a;</string>
+      <string>bool isTrue;</string>
+      <string>float main;</string>
+      <string>double abc13;</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Jaki wynik da działanie 12%5?</Question>
+    <Answers>
+      <string>4</string>
+      <string>2</string>
+      <string>0</string>
+      <string>3</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Operator inkrementacji to...</Question>
+    <Answers>
+      <string>&#38;&#38;</string>
+      <string>++</string>
+      <string>+=</string>
+      <string>!=</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>W jaki sposób działa operator dekrementacji?</Question>
+    <Answers>
+      <string>Zmniejsza wartość o liczbę podaną po nim</string>
+      <string>Porównuje dwie liczby</string>
+      <string>Zmniejsza wartość o 1</string>
+      <string>Zwiększa wartość o 1</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Operatorem logicznym jest...</Question>
+    <Answers>
+      <string>||</string>
+      <string>+=</string>
+      <string>>=</string>
+      <string>--</string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Operatorem logicznym nie jest...</Question>
+    <Answers>
+      <string>==</string>
+      <string>!=</string>
+      <string>++</string>
+      <string>&#38;&#38;</string>
+    </Answers>
+    <CorrectAnswer>2</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Operatorem arytmetycznym nie jest...</Question>
+    <Answers>
+      <string>+=</string>
+      <string>%</string>
+      <string>/</string>
+      <string>*</string>
+    </Answers>
+    <CorrectAnswer>0</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Jak wygląda instrukcja przestrzeni nazw dla std? </Question>
+    <Answers>
+      <string>using std;</string>
+      <string>using namespace std; </string>
+      <string>std; </string>
+      <string>namespace std; </string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>Który z podanych typów zmiennych nie istnieje w jęzuku c++?</Question>
+    <Answers>
+      <string>short</string>
+      <string>long</string>
+      <string>char</string>
+      <string>Integer</string>
+    </Answers>
+    <CorrectAnswer>3</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+  <QuizQuestion>
+    <Question>W jaki sposób zadziała kod "x==y"</Question>
+    <Answers>
+      <string>Zmieni wartość w zmiennej x na wartość zmiennej y</string>
+      <string>Sprawdzi czy x jest równy y</string>
+      <string>x oraz y będą traktowane jako takie same zmienne</string>
+      <string>Zmieni wartość w zmiennej y na wartość zmiennej x</string>
+    </Answers>
+    <CorrectAnswer>1</CorrectAnswer>
+    <Asked>false</Asked>
+    <Showed>false</Showed>
+  </QuizQuestion>
+</ArrayOfQuizQuestion>

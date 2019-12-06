@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  
+<theories>
+  <theory name ="Język CPP - podstawy.">
+    <bodies>
+      <body>1. Czym jest język c++. Kompilator. Linker.
+      
+        C++ – język programowania ogólnego przeznaczenia. Umożliwia abstrakcję danych oraz stosowanie kilku paradygmatów programowania: proceduralnego, obiektowego i generycznego. Charakteryzuje się wysoką wydajnością kodu wynikowego, bezpośrednim dostępem do zasobów sprzętowych i funkcji systemowych, łatwością tworzenia i korzystania z bibliotek, niezależnością od konkretnej platformy sprzętowej lub systemowej oraz niewielkim środowiskiem uruchomieniowym. Podstawowym obszarem jego zastosowań są aplikacje i systemy operacyjne. 
+        
+        Kompilator – program służący do automatycznego tłumaczenia kodu napisanego w jednym języku (języku źródłowym) na równoważny kod w innym języku (języku wynikowym). Proces ten nazywany jest kompilacją. W informatyce kompilatorem nazywa się najczęściej program do tłumaczenia kodu źródłowego w języku programowania na język maszynowy.
+        
+        Konsolidator (ang. linker) - jeden z programów składowych kompilatora. Konsolidator w trakcie procesu konsolidacji łączy zadane pliki obiektowe i biblioteki statyczne tworząc w ten sposób plik wykonywalny.
+      </body>
+      <body>2. Struktura dokumentu w języku c++.
+      
+       Kod programu c++ jest zwykłym tekstem napisanym w dowolnym edytorze. Plikowi takiemu nadaje się zwykle rozszerzenie .cpp i kompiluje za pomocą kompilatora, aby utworzyć działającą aplikację. Poniżej standardowy szablon programu c++:
+       #include ...
+       using namespace std;
+       int main()
+       {
+       kod programu
+       system("pause");
+       return 0;
+       }
+       - #include - grupa tzw. dyrektyw preprocesora. Są to wiersze zawierające specjalne instrukcje dla kompilatora lub przydatne funkcje, na przykład bibliotę iostream która pozwala m.in. na wyświetlanie tekstu na ekran. 
+       - using namespace std; - jest poleceniem, które nakazuje użycia standardowej przestrzeni nazw std. Pojęcie przestrzeni nazw służy do określenia, które zmienne i funkcje można użyć w danym miejscu.
+       - int main() - główna funkcja programu.
+       - kod programu - tutaj możemy inicjować zmienne, wprawdzać dane operatorem cin, wypisawać wartości na ekran operatorem cout. Jest to ciało naszego programu, jak on będzie działać.
+       - system("pause") - polecenie to zatrzymuje wykonanie programu do momentu naciśnięcia jakiegoś klawisza.
+       - return 0 - polecenie to powoduje, że funkcja main() zwraca wartość 0, co oznacza, że program skompilował się pomyślnie.
+     </body>
+      <body>3. Deklarowanie zmiennych.
+      
+     Zmienna to pewien stosunkowo mały obszar w pamięci, w którym możemy przechowywać dane różnego typu np. liczby całkowite, liczby rzeczywiste (zmiennoprzecinkowe), znak, tekst oraz kilka innych wartości, które będą nas w przyszłości interesowały. Nie można jednak wszystkiego zapisywać do jednej zmiennej. Każda zmienna ma swoje przeznaczenie, wielkość i właściwości. Na zmiennych liczbowych możemy wykonywać operacje matematyczne, w innych z kolei możemy przechowywać tekst.  Aby użyć zmiennej należy najpierw ją zadeklarować, czyli podać jej typ a następnie jej nazwę, na przykład: int a;. Nazwa zmiennej nie może się pokrywać z słowami kluczowymi, na przykład return albo main.
+       
+     Istnieje kilka typów zmiennych:
+   -typ: bool - wielkość w bajtach: 1 - zakres liczbowy: true(1) lub false(0) 
+   -typ: char - wielkość w bajtach: 1 - zakres liczbowy: od 128 do 127
+   -typ: int - wielkość w bajtach: 2 - zakres liczbowy: od -2'147'483'648 do 2'147'483'647
+   -typ: short - wielkość w bajtach: 2 lub 4 - zakres liczbowy: od -32'768 do 32'767
+   -typ: long - wielkość w bajtach: 4 - zakres liczbowy: od -2'147'483'648 do 2'147'483'647
+   -typ: float - wielkość w bajtach: 4 - zakres liczbowy: 3.4E +/- 38 (7 cyfr)
+   -typ: double - wielkość w bajtach: 8 - zakres liczbowy: 1.7E +/- 308 (15 cyfr)
+   
+Na początek znajomość tych typów będzie wystarczająca, w późniejszym etapie nauki zachęcam do zapoznania się z pozostałymi :)</body>
+      <body>4. Operatory arytmetyczne oraz relacyjne.
+      
+      Na danych liczbowych możemy dokonywać wielu operacji za pomocą operatorów arytmetycznych i relacyjnych.
+      
+      Najważniejsze operatory logiczne:
+    - opis - operator - działanie - wynik
+    - dodawanie - "+" - 3+4 - 7,
+    - odejmowanie - "-" - 6-4 - 2,
+    - mnożenie - "*" - 2*5 - 10,
+    - dzielenie - "+" - 6/2 - 3,
+    - dzielenie modulo - "%" - 6%5 - 1.
+    
+    Najważniejsze operatory relacyjne:
+    - operator - przykład - opis
+    - "==" - x==y - sprawdź czy x jest równe y,
+    - "!=" - x!=y - sprawdź czy x jest różne od y,
+    - "&lt;" - x&lt;y - sprawdź czy x jest mniejsze od y,
+    - ">" - x>y - sprawdź czy x jest większe od y,
+    - "&lt;=" - x&lt;=y - sprawdź czy x jest mniejsze bądź równe y,
+    - ">=" - x>=y - sprawdź czy x jest większe bądź równe y,
+    - "&#38;&#38;" - x&#38;&#38;y - "i" logiczne,
+    - "||" - x||y - "lub" logiczne,
+    - "++" - x++ - zwiększ x o 1 (inkrementacja),
+    - "--" - x-- - zmniejsz x o 1(dekrementacja),
+    - "+=" - x+=4 - zwiększ x o 4,
+    - "-=" - x-=3 - zmniejsz x o 3,
+    - "*=" - x*=2 - zwiększ x 2 razy,
+    - "/=" - x/=6 - zmniejsz x 6 razy.</body>
+    </bodies>
+  </theory>
+  <theory name ="Instrukcje warunkowe oraz pętle.">
+    <bodies>
+      <body>1. Instrukcja warunkowa if.
+      
+      Postać instrukcji warunkowej if:
+      if(warunek (warunki))
+      { //początek bloku należącego do if
+        //instrukcje zostaną wykonane, gdy warunek (warunki) jest prawdziwy
+      } //koniec bloku należącego do if
+      else
+      {
+        //instrukcje zostaną wykonane, gdy warunek (warunki) nie jest prawdziwy
+      }
+      
+      Instrukcji warunkowej if możemy używać w dwóch wersjach, z alternatywą (jak na przykładzie wyżej), albo bez alternatywy (pomijamy wtedy blok else). Instrukcja warunkowa if bez alternatywy działa na zasadzie opierania się na wartości, jaką przyjmuje warunek. W przypadku true (1), instrukcje dla bloku if zostaną wykonane. W instrukcji warunkowej z alternatywą pojawia się drugi blok instrukcji rozpoczynany słowem kluczowym else, wykonany w przypadku, gdy warunek (warunki) jest fałszywy.
+      
+      Warunki możemy zagnieżdżać. Zasady używania i działania warunków pozostają takie same.
+      Przykład:
+       if( liczba >= 10 )
+       {
+        if( liczba >= 50 )
+          {
+            if( liczba &lt;= 100 )        
+          }
+       }
+      </body>
+      <body>2. Instrukcja warunkowa switch ... case.
+      
+      Postać instrukcji warunkowej switch ... case:
+      switch( zmienna )
+      {
+          case wartosc_1:
+          //jakiś kod
+          break;
+          case wartosc_2:
+          //jakiś kod
+          break;
+          //...
+          case wartosc_n:
+          //jakiś kod
+          break;
+          default:
+          //jakiś kod
+          break;  
+       }
+       
+      Słowo kluczowe switch: Instrukcja switch(...) służy do podejmowania decyzji wyłącznie na podstawie wartości jednej zmiennej. Zmienna ta musi być typem podstawowym i jednocześnie typem całkowitym. Oznacza to w konsekwencji, że wybór będziemy mogli dokonywać tylko i wyłącznie na podstawie wartości liczby całkowitej czy też kodu znaku ASCII (który również jest liczbą). Zmienną, na której chcemy pracować podajemy w nawiasach zaokrąglonych, które muszą znaleźć się zaraz po wystąpieniu słowa kluczowego switch.
+      Słowo kluczowe case: Kod znajdujący się po słowie case zostanie wykonany jeśli liczba po case jest równa wartości zmiennej po słowie switch.
+      Słowo kluczowe default: Wejście w kod znajdujący się po słowie kluczowym default nastąpi tylko wtedy, gdy żaden z case'ów nie zostanie spełniony.
+      Słowo kluczowe break: Słowo kluczowe break oznacza: przerwij wykonywanie obecnej instrukcji sterującej. W tym przypadku instrukcją sterującą jest switch. Użycie słowa kluczowego break ma bardzo duże znaczenie w instrukcji sterującej switch ... case. Informuje ona bowiem kompilator, że dany case się wykonał i program ma już opuścić instrukcję sterującą switch. Jeśli zabraknie słowa kluczowego break to program wykona wszystkie instrukcje od momentu spełnienia warunku aż do samego końca switch'a.</body>
+      <body>3. Pętla while oraz do while.
+      
+      Wstęp: Do czego służą pętle?
+      Pętla w największym uproszczeniu służy do powtarzania instrukcji, które chcemy by się wykonały więcej niż raz bez konieczności ich wielokrotnego pisania w kodzie. 
+      
+      Postać pętli while:
+      while( /* warunek kończący pętlę */ )
+      {
+         //powtarzany blok instrukcji
+      }
+      
+      Dopóki warunek jest spełniony (czyli wartość logiczna wynosi true) dopóty pętla będzie powtarzała instrukcję (lub blok instrukcji) występujący bezpośrednio po słowie kluczowym while. 
+      
+      Postać pętli do ... while:
+      do
+      {
+         //... tu powtarzany kod
+      } while( warunek_konczacy );
+      
+      Liczba powtórzeń instrukcji umieszczonych w bloku pętli do ... while jest zależna od warunku kończącego pętlę. Pętla do ... while zakończy się gdy warunek umieszczony w nawiasach zaokrąglonych zwróci wartość false. Istotną cechą pętli do ... while jest fakt, że kod zawarty między słowami kluczowymi do ... while zawsze wykona się conajmniej jeden raz. 
+      
+      Blok instrukcji umieszczony w pętli while może się więc nie wykonać ani razu jeżeli wartość logiczna warunku przy pierwszym wejściu w pętlę będzie fałszywa. Jest to kluczowa, a zarazem jedyna różnica pętli while od pętli do ... while. </body>
+      <body>4. Pętla for.
+      
+      Postać pętli for:
+      for( _A_; _B_; _C_ )
+      {
+        //blok instrukcji
+      }
+      gdzie: _A_ - nadawanie początkowych wartości zmiennych, np: int i = 0;
+             _B_ - warunek kończący pętle for, np: i&lt;10;
+             _C_ - zwiększenie (zmiejszenie) licznika pętli, np: i++
+             
+      Pętlę for używamy praktycznie zawsze, gdy znamy ilość danych, jaką mamy wczytać, wypisać lub zmienić. Jeśli chcemy policzyć średnią z określonej liczby liczb, wczytać określoną ilość danych z pliku lub wypisać określoną ilość danych na ekran, pętla for jest do tego po prostu idealna. 
+      Przykład wykorzystania pętli for do wypisania tablicy:
+      for( int indeks = 0; indeks &lt; ile; indeks++ )
+         cout &lt;&lt; tablica[ indeks ] &lt;&lt; endl;
+    </body>
+    </bodies>
+  </theory>
+  <theory name ="Funkcje w języku C++.">
+    <bodies>
+      <body>1 .Funkcja (ang. function) jest fragmentem kodu programu, który możemy wielokrotnie wywoływać z różnych miejsc programu. Każda funkcja przed wykorzystaniem musi być zdefiniowana. Definicja funkcji wygląda następująco:
+      typ_wyniku nazwa_funkcji(lista_argumentów)
+      {
+        treść funkcji
+      }
+
+typ_wyniku - określa rodzaj informacji, którą zwraca funkcja jako wynik swojej pracy. Jeśli funkcja nie zwraca wyniku (np. interesuje nas tylko wykonanie określonego kodu), to posiada typ void (ang. pusty).
+nazwa_funkcji - zbudowana podobnie jak nazwa zmiennej - stosujemy identyczne reguły. Nazwa funkcji umożliwia odwołanie się do jej kodu.
+lista_argumentów - zawiera definicje danych przekazywanych do funkcji. Lista zbudowana jest z wpisów:
+    typ_argumentu1 nazwa_argumentu1, typ_argumentu2 nazwa_argumentu2, ...
+    typ_argumentu   - jeden z typów danych zdefiniowanych w C++ (np. int, double, bool) lub typ zdefiniowany przez użytkownika.
+    nazwa_argumentu - zbudowana identycznie jak nazwa zmiennej. Pozwala odwoływać się do danego argumentu wewnątrz funkcji.
+  
+    Każda napisana funkcja czy by była typu int, czy bool musi zwrócić jakąś wartość, do zwracania wartości używamy słowa kluczowego return. Zwrócona wartość jest tego samego typu co typ funkcji. Przykładowo wartość zwrócona przez funkcje typu int też jest typu int. W funkcjach typu void, które nie zwracają żadnej wartości nie używamy słowa return. Przykład takiej funkcji:
+  void pokazNapisz()
+    {
+      cout&lt;&lt;"jakis napis";
+    }
+  </body>
+      <body>
+        2. Czas życia zmiennych w funkcjach.
+        Zmienne, które zostały utworzone w funkcji są zmiennymi tymczasowymi. Zmienne te pojawiają się do użytku przy każdym wywołaniu funkcji jak również znikają po jej opuszczeniu. Zmienne te nie trzymają stanu z poprzedniego wywołania - innymi słowy za każdym razem po wejściu w funkcję musisz nadać wartości zmiennym na nowo.
+
+        Przekazywanie argumentów do funkcji
+
+        W języku C++ argumenty możemy przekazywać na dwa sposoby:
+        - Przekazywanie przez wartość
+        W tym przypadku funkcja otrzymuje wartości jako argumenty. Ten typ przekazywania argumentów do funkcji pozwala stosować przy wywołaniu wyrażenia w miejscu argumentów. Komputer oblicza wartość danego wyrażenia i przekazuje ją funkcji w danym argumencie. Funkcja otrzymaną wartość może dowolnie modyfikować.
+        Przykład: void wypisz liczbe(int x)
+        {
+        //kod funkcji
+        }
+        
+        - Przekazywanie przez referencję
+          W tym przypadku przed nazwą argumentu na liście umieszczamy operator &#38;. Funkcja otrzymuje jako argument adres zmiennej, a nie jej wartość. Mając adres może odwołać się do pamięci tej zmiennej i zmienić jej zawartość. Wszelka modyfikacja takiego argumentu wewnątrz funkcji powoduje zmianę skojarzonej z tym argumentem zmiennej.
+        Przykład: void wypisz liczbe(int &#38; x)
+        {
+        //kod funkcji
+        }
+      </body>
+    </bodies>
+  </theory>
+  <theory name ="Tablice statyczne oraz dynamiczne.">
+    <bodies>
+      <body>
+        1. Tablica Statyczna.
+        Tablica (ang. array) jest złożoną strukturą danychzbudowaną z ciągu elementów tego samego typu. W pamięci komputera elementy tablicy są ułożone kolejno jeden obok drugiego. Dostęp do elementu odbywa się poprzez numer zwany indeksem. Na podstawie indeksu, rozmiaru elementu oraz adresu początku tablicy komputer oblicza adres elementu i w ten sposób uzyskujemy do niego dostęp.
+
+        Składnia deklaracji tablicy jest następująca:
+        typ_danych nazwa_tablicy[liczba_elementów];
+        typ_danych – określa rodzaj informacji przechowywanych przez deklarowane zmienne,
+        nazwa_tablicy – tworzona jest wg zwykłych reguł tworzenia nazw zmiennych w języku C++,
+        Liczba_elementów – określa, ile elementów danego typu przechowuje tablica.
+
+        W języku C++ indeksy tablic rozpoczynają się od 0. Jeśli przykładowo deklarujemy tablicę int x[3] to elementy tablicy posiadają indeksy 0,1,2. Aby uzyskać dostęp do ostaniego elementu tablicy musimy się odwołać do indeksy n-1.
+
+        Często zdarza się, iż chcemy utworzyć tablicę z zadaną z góry zawartością (np. tablica zawierająca początkowe liczby pierwsze). Składnia inicjalizacji tablicy w języku C++ jest następująca:
+        typ_elementównazwa_tablicy= {lista_wartości_dla_kolejnych_elementów};
+      </body>
+      <body>
+        2. Tablica Dynamiczna.
+        Wskaźnik (ang. pointer) jest zmienną, która przechowuje adres, pod którym w pamięci umieszczone są dane. W języku C++ wskaźniki posiadają typy, mówimy np. o wskaźniku do danych typu int lub o wskaźniku do danych typu double. Typ wskaźnika określa rodzaj wskazywanego obiektu. Wskaźnik definiujemy następująco:
+        typ * wskaźnik;
+        typ - określa typ wskazywanego przez wskaźnik obiektu
+        *   - operator, który mówi, iż zmienna jest wskaźnikiem i zawiera adres danych a nie same dane.
+        wskaźnik - zmienna, która będzie mogła przechowywać adresy. W systemie 32-bitowym wskaźniki są 32-bitowe, tzn. adresy zapisywane są za pomocą 4 bajtów.
+
+        W pamięci komputera możemy rezerwować obszary na przechowywanie danych określonego typu. Do tego celu służy operator new, który stosujemy w sposób następujący:
+        wskaźnik = new typ;
+        new - tworzy obszar pamięci i zwraca jego adres, który zostaje umieszczony we wskaźniku
+        typ - określa rodzaj informacji, która będzie przechowywana w utworzonym przez new obszarze. Typ ten musi być zgodny z typem obiektów wskazywanych przez wskaźnik.
+
+        Po wykorzystaniu obszar pamięci można zwrócić do puli systemu za pomocą polecenia:
+        delete wskaźnik;
+
+        Wskaźnik w powyższym poleceniu musi zawierać adres obszaru utworzonego przez new. Zwrócona pamięć może zostać wykorzystana do innych celów.
+
+        Tablica dynamiczna (ang. dynamic array) jest tworzona w czasie uruchomienia programu. Jej rozmiar może być wyliczany. Co więcej, gdy przestanie być potrzebna możemy ją usunąć z pamięci. Dzięki tym własnościom program efektywniej wykorzystuje zasoby pamięciowe komputera.
+       
+        Tworzenie i wykorzystanie tablicy dynamicznej:
+        Definiujemy zmienną wskaźnikową, która będzie przechowywała adres pierwszego elementu tablicy. Jest to zwykła definicja wskaźnika:
+        typ * wskaźnik;
+        
+        Przydzielamy obszar pamięci dla tablicy. Stosujemy następującą konstrukcję:
+        wskaźnik = new typ[liczba_elementów];
+        liczba_elementów określa rozmiar tablicy. Może być to dowolne wyrażenie arytmetyczne.
+        
+        Do elementów tak utworzonej tablicy odwołujemy się poprzez ich indeksy:
+        wskaźnik[indeks]...
+        indeks - powinien być w zakresie od 0 do liczba_elementów - 1. Kompilator nie sprawdza, czy element o danym indeksie znajduje się faktycznie w tablicy. Należy zachować ostrożność.
+        
+        Gdy tablica dynamiczna przestanie być potrzebna, usuwamy ją z pamięci za pomocą instrukcji:
+        delete [] wskaźnik;
+        
+        Po tej operacji obszar pamięci zajęty przez tablicę zostaje zwrócony do systemu. Wskaźnik można wykorzystać ponownie do innej tablicy wg powyższych punktów.
+      </body>
+    </bodies>
+  </theory>
+  <theory name ="Programowanie obiektowe w języku C++.">
+    <bodies>
+      <body>
+        1. Klasa.
+        Klasa to, najprościej mówiąc, typ danych. Definicja klasy:
+        class Klasa
+        {
+        };
+        Klasa pozwala na ustawianie praw dostępu do składowych przy pomocy trzech słów kluczowych private, protected i public, zwanych specyfikatorami dostępu.
+        Specyfikator private sprawia, że dostęp do składowej ma tylko ta klasa. Próba odwołania się do składowej prywatnej spoza klasy spowoduje błąd kompilacji. Jest to domyślny specyfikator.
+        Specyfikator protected jest podobny do private. Różnice pojawiają się przy dziedziczeniu (omówionym w następnych lekcjach).
+        Specyfikator public oznacza, że do składowej każdy ma dostęp.
+
+        2. Obiekt.
+        Obiektem nazywamy egzemplarz klasy. Tworzymy go jak zmienną, ponieważ, w istocie, to jest zmienna.
+        Klasa obiekt;
+        Odwoływanie do składowych klasy wygląda następująco: obiekt.składowa;
+
+        3. Metody.
+        Metoda to inaczej funkcja składowa, czyli funkcja powiązana z klasą, mająca dostęp do jej składowych. Jej definicja i deklaracja jest identyczna jak dla normalnych funkcji. Dla czytelności kodu definicje funkcji umieszcza się poza klasą. Do definiowania metody poza definicją klasy używa się zapisu: 
+        void Klasa::Metoda();
+        Informuje to kompilator o tym że Metoda nie jest funkcją, lecz implementacją metody z klasy Klasa.
+        Medoty wywołujemy w taki sam sposób jak zwykłe składowe: Klasa.Metoda();.
+      </body>
+      <body>
+        4. Statyczne zmienne i metody.
+        Statyczne zmienne i metody w klasach to inaczej składowe, które są powiązane z klasą, a nie z obiektem. Statyczne mogą być dane i metody. W przypadku danych, przez cały czas pracy programu, istnieje tylko jeden egzemplarz każdego pola. Metody statyczne nie mają dostępu do niestatycznych metod i zmiennych. Przykładowo mając funkcję zwiększającą wartość liczby o 1, dla zmiennej nie statycznej po wywołaniu takiej funkcji wartość będzie rosła o 1, a następnie wracała do swojej wartości wyjściowej, dla zmiennej statycznej każde wywołanie będzie zwiększało jej wartość.
+
+        5. Konstruktor.
+        Konstruktor jest automatycznie wywoływany podczas tworzenia obiektu. Można w nim nadać wartości początkowe składowym, zaalokować pamięć, itp. Konstruktor definiuje się jak metodę, z tą różnicą, że nie piszemy typu zwracanego, a nazwa konstruktora musi być identyczna z nazwą klasy, w typowych przypadkach jest funkcją typu public.
+
+        Konstruktor może przyjmować argumenty, które należy podać podczas tworzenia obiektu
+        Klasa a2( 1 );
+        Konstruktor nieprzyjmujący żadnych argumentów nazywamy konstruktorem domyślnym. Jest on wywoływany, gdy podczas tworzenia obiektu nie podamy żadnych argumentów.
+        Klasa1 a1;
+
+        6. Konstruktor kopiujący.
+        Konstruktor kopiujący jest wywoływany podczas kopiowania obiektu. Taki konstruktor przyjmuje referencję na (stały) obiekt do skopiowania.
+        Klasa( Klasa &#38;)
+
+        7. Destruktor.
+        Destruktor jest wywoływany automatycznie podczas niszczenia obiektów. Nie przyjmuje żadnych argumentów. W przeciwieństwie do konstruktorów, w klasie może być tylko jeden destruktor.
+        ~Klasa();
+
+       
+      </body>
+      <body>
+        8. Wskaźnik this.
+        W niestatycznych metodach klasy występuje wskaźnik this, który wskazuje na obiekt, dla którego została wywołana metoda. Oznacza się go słowem kluczowym this
+
+        class Klasa
+        {
+        public:
+        void metoda()
+        {
+        cout &lt;&lt; "Moj adres to " &lt;&lt; this &lt;&lt; endl;
+        }
+        };
+        Moj adres to 0xbfe59b3f
+
+        Wskaźnika this nie można modyfikować. Nie można też ręcznie usuwać wskazywanego przez niego obiektu, chyba, że ma się ku temu bardzo dobre powody. W niemal stu procentach przypadków, użycie delete na this jest poważnym błędem, bo nie można z tego miejsca określić, czy obiekt został utworzony na stosie, a nawet jeśli był zaalokowany dynamicznie, to obiekt może leżeć gdzieś w środku tablicy.
+
+        9. Przyjaźń.
+        Zdarza się, że jakaś klasa/funkcja potrzebuje dostępu do prywatnych lub chronionych składowych klasy. Aby zezwolić na dostęp, używa się deklaracji przyjaźni miedzy klasą a inną klasą lub funkcją.
+        Deklaracje przyjaźni umieszcza się w klasie, która ma udostępniać swoje składowe wybranym klasom i/lub funkcjom.
+        class Klasa
+        {
+          friend Klasa2;
+        }
+        class Klasa2;
+        {}
+        
+        
+      </body>
+      <body>
+        10. Dziedziczenie.
+        Dziedziczenie, jak sama nazwa wskazuje, pozwala jednej klasie odziedziczyć coś (zmienne, metody) po drugiej. Klasę dziedziczącą nazywamy klasą pochodną, a klasę, po której klasa pochodna dziedziczy, nazywamy klasą bazową. (Klasa pochodna pochodzi od bazowej).
+        class Bazowa
+        {
+        };
+        class Pochodna: typ_dziedziczenia Bazowa
+        {
+        };
+
+        Są 3 typy dziedziczenia: publiczne (public), chronione (protected) i prywatne (private). Różnią się dostępem do odziedziczonych składowych w klasie pochodnej:
+        - Dziedziczenie publiczne jest najczęściej stosowane. Składowe publiczne klasy bazowej są odziedziczone jako publiczne, a składowe chronione jako chronione.
+        - W dziedziczeniu chronionym składowe publiczne są dziedziczone jako chronione, a składowe chronione jako chronione.
+        - Dziedziczenie prywatne jest domyślne (gdy nie jest podany typ dziedziczenia). Składowe publiczne są dziedziczone jako prywatne, a chronione jako prywatne.
+        We wszystkich sposobach dziedziczenia, składowe prywatne klasy bazowej są dziedziczone jako prywatne, ale klasa pochodna nie ma do nich dostępu. Aby klasa pochodna miała dostęp do prywatnych składowych klasy bazowej, musi być zaprzyjaźniona z klasą bazową.
+
+        Używanie odziedziczonych składowych
+        Odziedziczonych składowych można używać tak, jak tych zdefiniowanych bezpośrednio w klasie pochodnej. Można też jawnie określać, która klasa zawiera składową, do której chcemy się odwołać.
+        Inicjalizacja odziedziczonych składowych
+        By zainicjalizować odziedziczoną część obiektu, wywołujemy w konstruktorze klasy pochodnej konstruktor klasy bazowej.
+
+        11. Metody wirtualne.
+        Określenie metody jako wirtualnej sprawia, że będzie wywoływana w wersji odpowiadającej rzeczywistemu typowi.
+
+        Metodę wirtualną można zadeklarować jako czysto wirtualną (ang. pure virtual), czyli taką, która powinna być przesłonięta w klasie pochodnej. Jeżeli w klasie jest przynajmniej jedna metoda czysto wirtualna, to jest to klasa abstrakcyjna. Jeżeli klasa pochodna nie przesłoni wszystkich metod czysto wirtualnych, również jest klasą abstrakcyjną. Nie można utworzyć obiektów klasy abstrakcyjnej.
+        class KlasaAbstrakcyjna
+        {
+        public:
+        virtual void PrzeciazMnie() = 0;
+        };
+
+        Wirtualny destruktor
+        Niewirtualny destruktor może powodować wycieki pamięci i niezdefiniowane zachowanie programu, ponieważ będzie wywoływany ten, który odpowiada typowi wskaźnika, a nie ten, który odpowiada rzeczywistemu typowi obiektu.
+
+        virtual ~Klasa();
+  
+      </body>
+    </bodies>
+  </theory>
+</theories>
